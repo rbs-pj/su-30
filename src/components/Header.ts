@@ -71,7 +71,6 @@ export function renderHeader(): string {
 }
 
 export function initHeaderEvents(): void {
-  const header = document.getElementById('main-header');
   const progressBar = document.getElementById('scroll-progress');
   const toggleBtn = document.getElementById('mobile-menu-btn');
   const drawer = document.getElementById('mobile-drawer');

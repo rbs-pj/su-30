@@ -1,5 +1,4 @@
 import { su30Data } from '../data/su30.ts';
-import type { AnatomyHotspot } from '../types.ts';
 
 export function renderAnatomySection(): string {
   const parts = su30Data.anatomyParts;
